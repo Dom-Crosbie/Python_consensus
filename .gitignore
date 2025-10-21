@@ -1,6 +1,19 @@
 # Environment variables (contains sensitive API keys)
 .env
 
+# Log files (may contain sensitive data)
+*.log
+app.log
+
+# Output files (may contain sensitive customer data)
+output/
+*.csv
+
+# GitHub and VS Code files (may contain sensitive project data)
+.github/
+.vscode/
+!.vscode/tasks.json
+
 # Python cache files
 __pycache__/
 *.py[cod]
